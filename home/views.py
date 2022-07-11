@@ -119,7 +119,7 @@ def blog_delete(request , id):
     return redirect('/see-blog/')
 
 
-def  register_view(request):
+def register_view(request):
     return render(request , 'register.html')
 
 
