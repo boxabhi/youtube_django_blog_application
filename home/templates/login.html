@@ -24,7 +24,12 @@
             <!-- Submit-->
             <button class="btn btn-lg btn-block btn-primary" onclick="login()">Sign in</button>
            
-            <p class="text-center"><small class="text-muted text-center">Don't have an account yet? <a href="signup.html">Sign Up                </a></small></p>
+            <p class="text-center">
+                <small class="text-muted text-center">
+                    Don't have an account yet?
+                    <a href="{% url 'register_view' %}">Sign Up</a>
+                </small>
+            </p>
           </div>
           <a class="close-absolute mr-md-5 mr-xl-6 pt-5" href="index-2.html"> 
             <svg class="svg-icon w-3rem h-3rem">
