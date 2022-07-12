@@ -1,0 +1,8 @@
+asgiref==3.5.2
+Django==4.0.6
+django-froala-editor==4.0.13
+djangorestframework==3.13.1
+Pillow==9.2.0
+pytz==2022.1
+sqlparse==0.4.2
+tzdata==2022.1
